@@ -1,0 +1,11 @@
+tests/
+docker-compose.yaml
+.dockerignore
+.env
+.pre-commit-config.yaml
+.gitignore
+__pycache__
+.DS_Store
+.idea/
+.ruff_cache/
+*.md

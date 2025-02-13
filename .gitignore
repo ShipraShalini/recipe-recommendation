@@ -1,0 +1,10 @@
+data/
+.task
+*.json
+.ruff_cache
+.venv
+.env
+__pycache__
+.DS_Store
+.idea/
+.ruff_cache/
