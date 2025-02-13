@@ -1,15 +1,5 @@
-#### Assumptions & limitations
-- Doesn't consider quantity
-- Returns only one recipe
-- Returns generic response even if the query is not correct.
-- Does not implement the image based retrival.
-
-
-# Improvements
-- Data ingestion should be separate from the app.
-- Needs tests
-- Error handling required.
-
+### Overview:
+It is a Recipe Recommendation API (PoC) based on the supplied list of ingredients using RAG with generative AI.
 
 
 #### Steps to run:
@@ -38,3 +28,15 @@
    --header 'Content-Type: text/plain' \
    --data '"paper, ink"'
    ```
+
+#### Assumptions & limitations
+- Doesn't consider quantity
+- Returns only one recipe
+- Returns generic response even if the query is not correct.
+- Does not implement the image based retrival.
+
+
+#### Suggested Improvements 
+- Data ingestion should be separate from the app.
+- Needs tests
+- Error handling required.
